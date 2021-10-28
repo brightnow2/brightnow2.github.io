@@ -3,11 +3,11 @@ var myh1 = document.querySelector('h1');//document.querySelector(".entry-title")
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
+    if(mySrc === 'firefox-icon.png') {
       myImage.setAttribute ('src','images/firefox2.png');
       myh1.textContent = "& that's not bad;)";
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('src','firefox-icon.png');
       myh1.textContent = "Mozilla Is Good";
     }
 }
